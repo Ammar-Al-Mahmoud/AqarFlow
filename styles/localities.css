@@ -1,0 +1,117 @@
+@font-face {
+    font-family: myfontp;
+    src: url(../fonts/font-/Lora/Lora-VariableFont_wght.ttf);
+}
+
+.develo {
+    margin-top: 30px;
+    background-image: url(../images/Rectangle\ 162162.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 0 0 90px 140px;
+}
+
+.develo h1 {
+    color: #434343;
+    width: 500px;
+    font-family: myfontp;
+    line-height: 50px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.develo p {
+    color: #434343;
+    width: 550px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+.icon-search-cir {
+    width: 72px;
+    height: 72px;
+    padding: 20px;
+    background-color: #f3f3f3;
+    font-size: 2em;
+    box-shadow: 20px 20px 50px 0px #0000002E, 20px 20px 50px 0px #FFFFFF inset, -20px -20px 50px 0px #CDCDCD inset, 20px 20px 50px 0px #FFFFFF40 inset;
+    cursor: pointer;
+}
+
+input#search {
+    width: 560px;
+    padding: 15px 30px;
+    border-radius: 42px;
+    border: none;
+    outline: none;
+    box-shadow: 10px 10px 20px 0px #00000014 inset, -10px -10px 20px 0px #FFFFFF inset;
+}
+
+#cir1 {
+    width: 50px;
+    height: 50px;
+}
+
+#cir1 #cir2 {
+    width: 45px;
+    height: 45px;
+    padding: 12px;
+    font-size: 1.4em;
+}
+
+.icon-search {
+    width: 80px;
+    height: 80px;
+    color: #12B7B6;
+    background-color: #f5f5f5;
+    box-shadow: 20px 20px 10px 0px #00000014 inset, -5px -5px 40px 0px #FFFFFF inset;
+}
+
+.img1-w {
+    height: 420px;
+    width: 550px;
+    background-color: #fff;
+    box-shadow: 20px 20px 50px 0px #D2D2D2, -20px -20px 50px 0px #FFFFFF;
+    border-radius: 43px;
+}
+
+.img1-w .img1 {
+    background-image: url(../images/Rectangle\ 123.png);
+    width: 95%;
+    height: 95%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 43px;
+}
+
+.img1-w .img1#img2 {
+    background-image: url(../images/Rectangle2222222222135.png);
+}
+
+.img1-w .img1#img3 {
+    background-image: url(../images/Rectangle333333333333139.png);
+}
+.img1-w .img1#img4 {
+    background-image: url(../images/Rectangl4444444444444\ 140.png);
+}
+
+.img1-w .img1 .img1bag {
+    width: 100%;
+    height: 100%;
+    background: #0000007f;
+    border-radius: 43px;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    color: #fff;
+    padding: 30px;
+    gap: 10px;
+}

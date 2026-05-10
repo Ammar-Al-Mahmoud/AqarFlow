@@ -1,0 +1,201 @@
+@charset "utf8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: myFont;
+    user-select: none;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+:root {
+    --main: #fff;
+    --sub: #12B7B6;
+    --w: #f1f1f1;
+    --b: #1f1f1f;
+    --shd: #00000088;
+    --val: 8px;
+}
+
+html {
+    scroll-behavior: smooth;
+    direction: ltr;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.backround-lin {
+    background: linear-gradient(to right, #123456, #add8e6, #123456);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    background-attachment: fixed;
+}
+
+.f-cen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.f-bet {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.f-ard {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.f-evn {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.f-col {
+    flex-direction: column;
+}
+
+.p1 {
+    padding: 1em;
+}
+
+.p1-5 {
+    padding: 1.5em;
+}
+
+.p2 {
+    padding: 2em;
+}
+
+.p2-5 {
+    padding: 2.5em;
+}
+
+.p3 {
+    padding: 3em;
+}
+
+.p4 {
+    padding: 4em;
+}
+
+.g1 {
+    gap: 1em;
+}
+
+.g1-5 {
+    gap: 1.5em;
+}
+
+.g2 {
+    gap: 2em;
+}
+
+.g2-5 {
+    gap: 2.5em;
+}
+
+.g3 {
+    gap: 3em;
+}
+
+.g4 {
+    gap: 4em;
+}
+
+.g5 {
+    gap: 5em;
+}
+
+.r1 {
+    border-radius: 1em;
+}
+
+.r1-5 {
+    border-radius: 1.5em;
+}
+
+.r2 {
+    border-radius: 2em;
+}
+
+.r2-5 {
+    border-radius: 2.5em;
+}
+
+.r3 {
+    border-radius: 3em;
+}
+
+.r4 {
+    border-radius: 4em;
+}
+
+.r50 {
+    border-radius: 50%;
+}
+
+.txt-w {
+    color: var(--w);
+}
+
+.txt-b {
+    color: var(--b);
+}
+
+.bg-w {
+    background-color: var(--w);
+}
+
+.bg-b {
+    background-color: var(--b);
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.btn {
+    width: 270px;
+    height: 65px;
+    padding: 0 32px;
+    background: var(--main);
+    border: none;
+    border-radius: 18px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--sub);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    box-shadow:
+        0 12px 25px rgba(0, 0, 0, 0.06),
+        0 4px 8px rgba(0, 0, 0, 0.03);
+    cursor: pointer;
+}
+
+
+
+.btn:hover {
+    background-color: var(--sub);
+    color: var(--main);
+}
